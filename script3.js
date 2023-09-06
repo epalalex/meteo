@@ -24,7 +24,7 @@ function displayWeatherData(data) {
   const windSpeed = data.observations[0].metric.windSpeed;
   const pressure = data.observations[0].metric.pressure;
   const windDirection = data.observations[0].winddir;
-  const precipitation = data.observations[0].precipRate;
+  const precipitation = data.observations[0].precipRate??0;
   const windDirectionString = convertWindDirection(windDirection);
 
   const weatherDataElement = document.getElementById('weather-data');
