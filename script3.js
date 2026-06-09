@@ -33,8 +33,8 @@ function displayWeatherData(data) {
 	<tr colspan=2><td style="color:#ffffff;"><b>ΤΡΕΧΟΥΣΕΣ ΣΥΝΘΗΚΕΣ</b></td></tr>
 	<tr><td style="background-color:#ffffe6;padding:5px"><b>Θερμοκρασία:</b></td><td style="padding:5px;background-color:#b3ffff"> ${temperature}°C</td></tr>    
 	<tr><td style="background-color:#ffffe6"><b>Υγρασία:</b></td><td style="padding:5px;background-color:#b3ffff"> ${humidity}%</td></tr>
-    <tr><td style="background-color:#ffffe6"><b>Ατμοσφαιρική πίεση:</b></td><td style="padding:5px;background-color:#b3ffff"></> ${pressure} mb</td></tr>
-	<tr><td style="background-color:#ffffe6"><b>Ποσότητα βροχής:</b></td><td style="padding:5px;background-color:#b3ffff"></> ${precipitation} mm</td></tr>
+    <tr><td style="background-color:#ffffe6"><b>Ατμοσφαιρική πίεση:</b></td><td style="padding:5px;background-color:#b3ffff">${pressure} mb</td></tr>
+	<tr><td style="background-color:#ffffe6"><b>Ποσότητα βροχής:</b></td><td style="padding:5px;background-color:#b3ffff">${precipitation} mm</td></tr>
 	</table>
 	<table style="margin-left:10px;margin-top:20px;padding:10px;font-family:Verdana;font-size:21px;border:4px blue double;border-radius:10px;background-color:blue">
 	<tr colspan=2><td style="color:#ffffff"><b>ΑΝΕΜΟΣ</b></td></tr>
